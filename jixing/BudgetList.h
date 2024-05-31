@@ -1,3 +1,6 @@
+#ifndef BUDGETLIST_H
+#define BUDGETLIST_H
+
 #include <vector>
 #include <string>
 #include <map>
@@ -48,3 +51,5 @@ public:
     // 统计各类别的预算百分比
     map<Category, double> getCategoryPercentage();
 };
+
+#endif // BUDGETLIST_H
